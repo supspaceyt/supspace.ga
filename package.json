@@ -2,9 +2,9 @@
   "name": "supspace.ga",
   "version": "1.0.0",
   "description": "supspace.ga, is a site thats all ",
-  "main": "index.js",
+  "main": "src/api.js",
   "scripts": {
-    "start": "nodemon --ignore *.js index.js",
+   "start": "netlify dev",
     "test": "nodemon index.js -e js,json,env"
   },
   "repository": {
@@ -28,5 +28,8 @@
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.22",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {
+  "netlify-cli": "^10.14.0",
+   }
 }
