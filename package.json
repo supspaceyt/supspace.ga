@@ -30,6 +30,6 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-  "netlify-cli": "^10.14.0",
+  "netlify-cli": "^10.14.0"
    }
 }
