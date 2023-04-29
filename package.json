@@ -1,0 +1,32 @@
+{
+  "name": "supspace.ga",
+  "version": "1.0.0",
+  "description": "supspace.ga, is a site thats all ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore *.js index.js",
+    "test": "nodemon index.js -e js,json,env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supspace-coding-team/supspace.ga.git"
+  },
+  "keywords": [
+    "website",
+    "nodejs",
+    "html",
+    "express"
+  ],
+  "author": "SupSpace-Coding-Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supspace-coding-team/supspace.ga/issues"
+  },
+  "homepage": "https://github.com/supspace-coding-team/supspace.ga#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  }
+}
